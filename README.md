@@ -4,6 +4,28 @@ This script automatically estimates **16-bit grayscale** TIFF format images and 
 
 Unfortunately the Gaussian image filter implementation in Pillow does not support type float till this day, I am using OpenCV instead and subjected to their License term.
 
+## Usage
+
+Please use [uv](https://docs.astral.sh/uv/) to manage python packages/dependencies/versions/... It's 2025 guys.
+
+1. Making sure dependencies are installed:
+
+    ```bash
+        uv sync
+    ```
+
+2. or for under-the-rock people:
+
+    ```bash
+        pip install -r requirements
+    ```
+
+3. Run:
+
+    ```bash
+        uv run imflatfield.py
+    ```
+
 **HINT:** region of interest **sigma** should be around 10-30
 
 **TODO:**
