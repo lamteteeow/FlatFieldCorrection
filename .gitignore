@@ -1,0 +1,5 @@
+*.7z
+images/*
+results/*
+*.m
+Flatfieldcorrection Ergebnis/
