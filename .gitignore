@@ -3,3 +3,4 @@ images/*
 results/*
 *.m
 Flatfieldcorrection Ergebnis/
+__pycache__/
